@@ -5,10 +5,14 @@
   "author": "cangdu <1264889788@qq.com>",
   "private": true,
   "scripts": {
+    // 脚本命令
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
   },
+  // 生产环境依赖
   "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "postcss-loader": "^2.0.8",
     "vue": "^2.1.0",
     "vue-router": "^2.1.1",
     "vuex": "^2.0.0"
